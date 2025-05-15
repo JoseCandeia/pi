@@ -5,8 +5,8 @@
     <nav>
         <h1>Clínica <span class="destaque">Veterinária</span></h1>
         <ul>
-            <li><a class="btn" href="#">Login</a></li>
-            <li><a class="btn" href="#">Cadastro</a></li>
+            <li><a class="btn" href="{{ route('login') }}">Login</a></li>
+            <li><a class="btn" href="{{ route('cadastro') }}">Cadastro</a></li>
         </ul>
     </nav>
 </header>
