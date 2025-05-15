@@ -29,6 +29,6 @@
         </h2>
     </div>
 
-    <a href="#" class="btn btn-modificado">Cadastrar-se</a>
+    <a href="{{ route('cadastro') }}" class="btn btn-modificado" >Cadastrar-se</a>
 </main>
 @endsection
